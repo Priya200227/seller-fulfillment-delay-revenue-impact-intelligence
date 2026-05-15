@@ -214,9 +214,14 @@ A regression model was built to estimate operational delivery variance using:
 
 ## Model Evaluation
 
-Metrics used:
-- R² Score
-- Mean Absolute Error (MAE)
+| Metric | Score |
+|--------|-------|
+| R² Score | 0.0478 |
+| Mean Absolute Error (MAE) | 5.87 |
+
+> Log-transformation was applied to delivery delay target variable
+> due to right-skewed distribution before regression modeling.
+> MAE is expressed in days — average prediction error on delivery delay estimation.
 
 ---
 
