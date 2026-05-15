@@ -1,0 +1,9 @@
+Metric,Value
+U-Statistic,476099579.0
+P-Value,0.0
+On-Time Review Median,5.0
+Late Review Median,2.0
+On-Time Review Mean,4.29
+Late Review Mean,2.6
+Test Used,Mann-Whitney U Test
+Reason,Non-normal distribution — ordinal review scores and right-skewed delay data
