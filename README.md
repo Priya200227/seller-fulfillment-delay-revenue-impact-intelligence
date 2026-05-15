@@ -193,11 +193,28 @@ Relationships analyzed between:
 - Product volume vs delay
 
 ## Hypothesis Testing
-Independent T-Test performed for:
-- On-time vs late delivery review scores
 
-## Key Statistical Finding
-Late deliveries showed significantly lower customer review scores.
+**Test Used:** Mann-Whitney U Test
+**Why:** Review scores are ordinal (1–5 scale) and delivery delay data
+is right-skewed — both violate the normality assumption required for a
+T-test. Mann-Whitney U is the correct non-parametric alternative.
+
+| Component | Detail |
+|---|---|
+| H₀ | Delivery delays do not significantly affect customer review scores |
+| H₁ | Delayed deliveries produce significantly lower review scores |
+| U-Statistic | 476,099,579 |
+| P-Value | < 0.0001 |
+| Significance Level | α = 0.05 |
+| Result | Reject H₀ |
+
+**Median Review Scores:**
+- On-Time / Early Deliveries: 5.0
+- Late Deliveries: 2.0
+
+**Business Decision:** Delivery delays have a statistically significant
+negative impact on customer satisfaction. Seller SLA enforcement is
+statistically justified.
 
 ---
 
