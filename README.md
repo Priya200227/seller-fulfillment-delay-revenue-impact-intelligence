@@ -330,7 +330,7 @@ Features:
 - Operational escalation tracking
 - Monitoring insight center
 
-![Dashboard Page 3](05_images/Page_1.png)
+![Dashboard Page 3](05_images/Page_3.png)
 
 ---
 
